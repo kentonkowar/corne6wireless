@@ -22,10 +22,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y    &kp U  &kp I         &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D      &kp F  &kp G        &kp H    &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N    &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp ESC
-                         &kp LCTRL  &mo 2  &kp SPACE    &kp RET  &sl 1  &kp LEFT_GUI
+&kp TAB       &kp Q  &kp W  &kp E         &kp R             &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P     &kp BSPC
+&kp LEFT_GUI  &kp A  &kp S  &kp D         &kp F             &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LSHFT     &kp Z  &kp X  &kp C         &kp V             &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                            &kp LEFT_GUI  &kp LEFT_CONTROL  &kp SPACE    &kp RET  &sl 1  &kp RIGHT_ALT
             >;
         };
 
@@ -38,10 +38,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp N1     &kp N2     &kp N3                &kp N4        &kp N5              &kp N6             &kp N7      &kp N8    &kp N9    &kp N0     &kp BSPC
-&kp GRAVE  &kp MINUS  &kp PLUS   &kp NON_US_BACKSLASH  &bt BT_SEL 3  &kp LPAR            &kp RPAR           &kp K_LOCK  &kp LEFT  &kp UP    &kp RIGHT  &kp DEL
-&kp LSHFT  &kp UNDER  &kp EQUAL  &kp PIPE              &trans        &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp HOME    &kp END   &kp DOWN  &kp INS    &kp RIGHT_SHIFT
-                                 &kp LGUI              &sl 2         &kp SPACE           &kp RET            &sl 0       &kp RALT
+&kp TAB    &kp N1     &kp N2     &kp N3                &kp N4  &kp N5              &kp N6             &kp N7      &kp N8    &kp N9    &kp N0     &kp BSPC
+&kp GRAVE  &kp MINUS  &kp PLUS   &kp NON_US_BACKSLASH  &trans  &kp LPAR            &kp RPAR           &kp K_LOCK  &kp LEFT  &kp UP    &kp RIGHT  &kp DEL
+&kp LSHFT  &kp UNDER  &kp EQUAL  &kp PIPE              &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp HOME    &kp END   &kp DOWN  &kp INS    &kp ESCAPE
+                                 &kp LGUI              &sl 2   &kp SPACE           &kp RET            &sl 0       &kp RALT
             >;
         };
 
@@ -54,10 +54,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_MULTIPLY  &kp BSPC
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH         &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE         &kp TILDE
-                             &kp LGUI  &sl 3     &kp SPACE    &kp RET    &sl 0      &kp RALT
+&kp TAB    &kp EXCL  &kp AT  &kp HASH          &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_MULTIPLY  &kp BSPC
+&kp LCTRL  &trans    &trans  &trans            &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH         &kp GRAVE
+&kp LSHFT  &trans    &trans  &trans            &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE         &kp TILDE
+                             &kp LEFT_CONTROL  &sl 3     &kp SPACE    &kp RET    &sl 0      &kp RALT
             >;
         };
 
