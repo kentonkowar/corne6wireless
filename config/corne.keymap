@@ -22,10 +22,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp E         &kp R             &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P     &kp BSPC
-&kp CLCK  &kp A  &kp S  &kp D         &kp F             &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LSHFT     &kp Z  &kp X  &kp C         &kp V             &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                            &kp LEFT_GUI  &kp LEFT_CONTROL  &kp SPACE    &kp RET  &sl 1  &kp RIGHT_ALT
+&kp TAB    &kp Q  &kp W  &kp E         &kp R             &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P     &kp BSPC
+&kp CLCK   &kp A  &kp S  &kp D         &kp F             &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V             &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                         &kp LEFT_GUI  &kp LEFT_CONTROL  &kp SPACE    &kp RET  &sl 1  &kp RIGHT_ALT
             >;
         };
 
@@ -38,10 +38,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp N1     &kp N2     &kp N3                &kp N4  &kp N5              &kp N6             &kp N7      &kp N8    &kp N9    &kp N0     &kp BSPC
-&kp GRAVE  &kp MINUS  &kp PLUS   &kp NON_US_BACKSLASH  &trans  &kp LPAR            &kp RPAR           &kp K_LOCK  &kp LEFT  &kp UP    &kp RIGHT  &kp DEL
-&kp LSHFT  &kp UNDER  &kp EQUAL  &kp PIPE              &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp HOME    &kp END   &kp DOWN  &kp INS    &kp ESCAPE
-                                 &kp LGUI              &sl 2   &kp SPACE           &kp RET            &sl 0       &kp RALT
+&kp TAB    &kp N1     &kp N2     &kp N3                &kp N4  &kp N5              &kp N6             &kp N7    &kp N8     &kp N9      &kp N0     &kp BSPC
+&kp GRAVE  &kp MINUS  &kp PLUS   &kp NON_US_BACKSLASH  &trans  &kp LPAR            &kp RPAR           &kp LEFT  &kp DOWN   &kp UP      &kp RIGHT  &kp DEL
+&kp LSHFT  &kp UNDER  &kp EQUAL  &kp PIPE              &trans  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp HOME  &kp COMMA  &kp PERIOD  &kp END    &kp ESCAPE
+                                 &kp LEFT_CONTROL      &sl 2   &kp SPACE           &kp RET            &sl 0     &kp RALT
             >;
         };
 
